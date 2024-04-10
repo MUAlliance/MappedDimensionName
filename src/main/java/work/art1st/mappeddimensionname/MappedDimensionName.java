@@ -109,6 +109,7 @@ public class MappedDimensionName {
         }
     }
     public static String mapName(String input, String prefix) {
+        prefix = prefix.toLowerCase();
         if (input == null) {
             return prefix;
         }
